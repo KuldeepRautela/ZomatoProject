@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+   android:padding="10dp"
+    android:background="@drawable/ic_background"
+    android:layout_height="wrap_content">
+   <TextView
+       android:layout_width="match_parent"
+       android:textSize="25dp"
+       android:padding="10dp"
+       android:id="@+id/id_name"
+       android:text="Resturant Name"
+       android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:id="@+id/id_address"
+        android:text="Address"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:id="@+id/id_locality"
+        android:text="Locality"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:id="@+id/id_city"
+        android:text="City Name"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
